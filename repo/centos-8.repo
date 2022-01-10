@@ -1,0 +1,43 @@
+###################   CENTOS 8 PACKAGES  ####################
+
+[Centos-8-BaseOS]
+name = Centos-8-BaseOS - repo
+baseurl = http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-8
+
+[Centos-8-AppStream]
+name = Centos-8-appstream - repo
+baseurl = http://mirror.centos.org/centos/8/AppStream/x86_64/os/
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-8
+
+[Centos-8-PowerTools]
+name = Centos-8-PowerTools - repo
+baseurl = http://mirror.centos.org/centos/8/PowerTools/x86_64/os/
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-8
+
+[Centos-8-centosplus]
+name = Centos-8-centosplus - repo
+baseurl = http://mirror.centos.org/centos/8/centosplus/x86_64/os/
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-8
+
+[Centos-8-extras]
+name = Centos-8-extras - repo
+baseurl = http://mirror.centos.org/centos/8/extras/x86_64/os/
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-8
+
+[Centos-8-epel]
+name = Centos-8-epel - repo
+baseurl = https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64
+enabled=1
+gpgcheck=1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
