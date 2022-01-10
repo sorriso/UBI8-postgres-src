@@ -2,7 +2,7 @@
 
 Postgres docker image based on UBI 8, build from Postgres source code, compatible with openshift
 
-[!["You like it ?"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sorriso)
+You like it ? Click there => [!["You like it ?"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sorriso)
 
 ## prerequisite:
 
